@@ -1,0 +1,27 @@
+.div {
+    display: block;
+}
+
+.header {
+    display: inline;
+}
+
+#header {
+    display: block;
+}
+
+#about {
+    display: inline;
+}
+
+#store {
+    display: inline;
+}
+
+#gmail {
+    display: inline;
+}
+
+#images {
+    display: inline;
+}
