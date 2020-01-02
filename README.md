@@ -1,2 +1,2 @@
 # google-homepage
-Duplicating the google homepage using tools and knowledge from searching HTML & CSS concepts, to complete The Odin Project HTML/CSS Project
+Duplicating the google homepage using tools and knowledge from searching HTML & CSS concepts, to complete The Odin Project HTML/CSS Project curiculum - (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
