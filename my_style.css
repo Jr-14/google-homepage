@@ -10,8 +10,14 @@ a {
     padding-left: 15px;
 }
 
-footer {
-    display: flex
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
 }
 
 #top-left-header {
@@ -45,7 +51,23 @@ footer {
     display: inline;
 }
 
+#google-main {
+    padding-top: 110px;
+}
+
 #footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+}
+
+#lower-left {
+    display: flex;
+}
+
+#lower-right {
     display: flex;
 }
 
