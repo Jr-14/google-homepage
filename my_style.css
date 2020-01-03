@@ -1,3 +1,7 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .div {
     display: block;
 }
@@ -18,6 +22,10 @@ ul {
 
 li {
     display: inline;
+}
+
+#navbar {
+    width: 100%;
 }
 
 #top-left-header {
@@ -51,8 +59,26 @@ li {
     display: inline;
 }
 
+#body {
+    width: 100%;
+    height: 100%;
+}
+
 #google-main {
+    display: flex;
     padding-top: 110px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+#form-search {
+    display: flex;
+    justify-content: center;
+}
+
+#button-containers {
+    display: flex;
+    justify-content: center;
 }
 
 #footer {
@@ -70,4 +96,6 @@ li {
 #lower-right {
     display: flex;
 }
+
+
 
