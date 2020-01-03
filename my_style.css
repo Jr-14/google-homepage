@@ -11,7 +11,13 @@ html {
 }
 
 a {
+    text-decoration: none;
+    color: black;
     padding-left: 15px;
+}
+
+a:hover {
+    color: grey;
 }
 
 ul {
@@ -68,7 +74,7 @@ li {
     display: flex;
     padding-top: 110px;
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 70px;            
 }
 
 #form-search {
@@ -81,12 +87,16 @@ li {
     justify-content: center;
 }
 
+.search-button {
+    padding: 5px;
+}
+
 #footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: grey;
+    background-color: lightgrey;
 }
 
 #lower-left {
