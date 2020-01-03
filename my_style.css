@@ -20,7 +20,7 @@ a {
     right: 15px;
 }
 
-#header {
+#navbar {
     display: flex;
     justify-content: space-between;
 }
