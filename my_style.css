@@ -10,6 +10,10 @@ a {
     padding-left: 15px;
 }
 
+footer {
+    display: flex
+}
+
 #top-left-header {
     position: relative;
     left: 15px;
@@ -40,3 +44,8 @@ a {
 #images {
     display: inline;
 }
+
+#footer {
+    display: flex;
+}
+
