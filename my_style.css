@@ -6,8 +6,23 @@
     display: inline;
 }
 
+a {
+    padding-left: 15px;
+}
+
+#top-left-header {
+    position: relative;
+    left: 15px;
+}
+
+#top-right-header {
+    position: relative;
+    right: 15px;
+}
+
 #header {
-    display: block;
+    display: flex;
+    justify-content: space-between;
 }
 
 #about {
