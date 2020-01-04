@@ -86,17 +86,17 @@ li {
 
 #form-search input{
     width: 500px;
-    height: 30px;
+    height: 40px;
     padding: 2px;
     margin-bottom: 15px;
     border-radius: 30px;
     border-style: solid;
-    padding-left: 35px;
-    background: url(search.svg) no-repeat scroll 5px 5px;
+    padding-left: 40px;
+    background: url(search.svg) no-repeat scroll 10px 10px;
 }
 
 #form-search input[type="text"]:hover, #form-search input[type="text"]:focus{
-    box-shadow: 0 3px 12px lightgrey;
+    box-shadow: 3px 3px 12px lightgrey;
     border-style: solid;
     border-width: 2px;
 }
@@ -109,6 +109,10 @@ li {
 .search-button {
     margin-top: 12px;
     padding: 12px;
+}
+
+.search-button input[type="button"]:hover{
+    box-shadow: 2px 2px 4px lightgrey;
 }
 
 .search-button input {
