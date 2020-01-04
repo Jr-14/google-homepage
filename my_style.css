@@ -73,9 +73,9 @@ li {
 
 #google-main {
     display: flex;
-    padding-top: 110px;
+    padding-top: 200px;
     justify-content: center;
-    margin-bottom: 70px;            
+    margin-bottom: 40px;            
 }
 
 #form-search form{
@@ -107,23 +107,51 @@ li {
 }
 
 .search-button {
-    padding: 5px;
+    margin-top: 12px;
+    padding: 12px;
 }
 
+.search-button input {
+    height: 35px;
+    width: 120px;
+    border-style: none;
+    border-radius: 3px;
+}
 #footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: lightgrey;
+    background-color: whitesmoke;
+}
+
+#footer-item-1 {
+    padding: 5px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+}
+
+#footer-item-1 span{
+    padding-left: 15px;
+}
+
+#footer-item-2 {
+    padding: 5px;   
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 #lower-left {
     display: flex;
+    justify-content: left;
 }
 
 #lower-right {
     display: flex;
+    justify-content: right;
+    padding-right: 15px;
 }
 
 
