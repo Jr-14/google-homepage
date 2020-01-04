@@ -95,8 +95,10 @@ li {
     background: url(search.svg) no-repeat scroll 5px 5px;
 }
 
-#form-search input:hover{
-    
+#form-search input[type="text"]:hover, #form-search input[type="text"]:focus{
+    box-shadow: 0 3px 12px lightgrey;
+    border-style: solid;
+    border-width: 2px;
 }
 
 #button-containers {
