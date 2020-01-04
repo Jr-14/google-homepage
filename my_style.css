@@ -86,10 +86,17 @@ li {
 
 #form-search input{
     width: 500px;
-    height: 24px;
+    height: 30px;
     padding: 2px;
     margin-bottom: 15px;
-    border-radius: 25px;
+    border-radius: 30px;
+    border-style: solid;
+    padding-left: 35px;
+    background: url(search.svg) no-repeat scroll 5px 5px;
+}
+
+#form-search input:hover{
+    
 }
 
 #button-containers {
